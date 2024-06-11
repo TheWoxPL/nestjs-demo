@@ -2,4 +2,5 @@
 . "$(dirname -- "$0")/husky.sh"
 
 npx lint-staged
+npm run check-branch-name
 # npm run check-commit-format
