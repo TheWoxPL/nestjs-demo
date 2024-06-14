@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "unievent-planner",
   "version": "0.0.1",
-  "description": "",
+  "description": "unievent-planner-backend-nestjs",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
@@ -19,8 +19,7 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "prepare": "husky",
-    "check-branch-name": "chmod 755 ./.husky/hooks/check-branch-naming.sh && sh ./.husky/hooks/check-branch-naming.sh",
-    "check-commit-format": "chmod 755 ./.husky/hooks/check-commit-format.sh && sh ./.husky/hooks/check-commit-format.sh"
+    "check-branch-name": "chmod 755 ./.husky/hooks/check-branch-naming.sh && sh ./.husky/hooks/check-branch-naming.sh"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
